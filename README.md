@@ -1,5 +1,7 @@
 NOTE: This was my submission to Ubisoft Toronto NEXT 2024.
 
+[January 2024]
+
 Part 1: Introduction
 
 “Orbit” is a 2D multiplayer game set in outer space. The players play as a spaceship with the ability to defy gravity by launching from planet to planet while being actively influenced by each planet’s gravitational forces. While flying in space, the players can boost against the gravitational force that is affecting them to steer toward the desired direction. 
