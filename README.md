@@ -14,7 +14,7 @@ The physics of gravitational forces by the planets becomes a fun challenge. Expe
 It is fair and simple. A game becomes fun when the rules are simple but enough to build a fair playing environment for good competition between players. All the player can control is the direction of the projectile while launching, and when to boost while flying. The rest is up to the gravitational forces in the space. This limitation makes the game challenging and fair.
 Element of surprise. Even though the gravitational forces by the planets stay the same, it can still make the trajectory of the rocket hard to predict, especially when the rocket is at high velocity. It keeps the players from getting bored.
 
-	Here are the control settings:
+Here are the control settings:
 
 Commands: [Player Green / Player Red]
 Aim counter-clockwise [A Key / Left-Arrow Key]
@@ -298,7 +298,7 @@ The game incorporates states for communicating between objects of different clas
 Component Pattern
 The games use component classes as a building block for other classes. For example, the Player class contains Ball and Launcher objects and uses their update and render functions.
 
-	Even though not many design patterns are incorporated, the design of this game still takes into account memory and performance efficiency. For example, instead of creating new objects in each frame for rendering, objects that need to be rendered have a Shape instance as a part of the class to be reused for rendering. This way, the program does not need to construct and deconstruct hundreds of objects in every frame.
+Even though not many design patterns are incorporated, the design of this game still takes into account memory and performance efficiency. For example, instead of creating new objects in each frame for rendering, objects that need to be rendered have a Shape instance as a part of the class to be reused for rendering. This way, the program does not need to construct and deconstruct hundreds of objects in every frame.
 
 
 The game also uses modern C++ features to prevent memory leaks from creating regular pointers. It uses smart pointers to handle visual effects. The visual effects in the game are contained in a std::vector array consisting of shared pointers to effect objects. This way, each pointer will be allocated and deallocated automatically.
